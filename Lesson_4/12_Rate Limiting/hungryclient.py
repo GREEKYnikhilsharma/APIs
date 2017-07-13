@@ -3,6 +3,7 @@ from time import sleep
 import httplib2
 import json
 
+#before running be sure to start redis server
 
 h = httplib2.Http()
 
