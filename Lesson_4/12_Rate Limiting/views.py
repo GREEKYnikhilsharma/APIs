@@ -1,4 +1,13 @@
 from redis import Redis
+'''
+before running this program 
+make sure that redis-server is installed
+on your machine (if not then use
+sudo apt-get install redis-server 
+in your linux terminal)
+and then start the server
+service redis-server start
+'''
 redis = Redis()
 
 import time
